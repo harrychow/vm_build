@@ -82,10 +82,10 @@ apache:
         - rewrite
     vhosts:
         YTag1WmSQc9D:
-            servername: awesome.dev
+            servername: harry.dev
             serveraliases:
-                - www.awesome.dev
-            docroot: /var/www/awesome
+                - www.harry.dev
+            docroot: /var/www/harry
             port: '80'
             setenv:
                 - 'APP_ENV dev'
@@ -145,7 +145,7 @@ php:
         error_reporting: '-1'
         session.save_path: /var/lib/php/session
     timezone: Europe/London
-    mod_php: 0
+    mod_php: 1
 hhvm:
     install: '0'
     nightly: 0
